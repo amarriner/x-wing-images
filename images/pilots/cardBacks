@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="/_autoindex/assets/css/autoindex.css" /><script src="/_autoindex/assets/js/tablesort.js"></script><script src="/_autoindex/assets/js/tablesort.number.js"></script><title>Index of //xw2/images/pilots/cardBacks/</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head><body><div class="content"><h1 style="color: #555;">Index of //xw2/images/pilots/cardBacks/</h1>
+<div id="table-filter"><input type="text" name="keyword" id="filter-keyword" placeholder="Filter Name"></div>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname" aria-sort="ascending"><a class="name" href="?ND"  onclick="return false"">Name</a></th><th class="colname" data-sort-method="number"><a href="?MA"  onclick="return false"">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="?SA"  onclick="return false"">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="//xw2/images/pilots/"><img class="icon" src="/_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="pilot_card_back_firstorder.png"><a href="//xw2/images/pilots/cardBacks/pilot_card_back_firstorder.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">pilot_card_back_firstorder.png</a></td><td data-sort="1729465830">2024-10-20 23:10</td><td data-sort="5731823">   5598k</td></tr>
+<tr><td data-sort="pilot_card_back_galacticempire.png"><a href="//xw2/images/pilots/cardBacks/pilot_card_back_galacticempire.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">pilot_card_back_galacticempire.png</a></td><td data-sort="1729465822">2024-10-20 23:10</td><td data-sort="5951422">   5812k</td></tr>
+<tr><td data-sort="pilot_card_back_galacticrepublic.png"><a href="//xw2/images/pilots/cardBacks/pilot_card_back_galacticrepublic.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">pilot_card_back_galacticrepublic.png</a></td><td data-sort="1729465826">2024-10-20 23:10</td><td data-sort="5979014">   5839k</td></tr>
+<tr><td data-sort="pilot_card_back_rebelalliance.png"><a href="//xw2/images/pilots/cardBacks/pilot_card_back_rebelalliance.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">pilot_card_back_rebelalliance.png</a></td><td data-sort="1729465822">2024-10-20 23:10</td><td data-sort="6071942">   5930k</td></tr>
+<tr><td data-sort="pilot_card_back_resistance.png"><a href="//xw2/images/pilots/cardBacks/pilot_card_back_resistance.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">pilot_card_back_resistance.png</a></td><td data-sort="1729465830">2024-10-20 23:10</td><td data-sort="5550629">   5421k</td></tr>
+<tr><td data-sort="pilot_card_back_scumandvillainy.png"><a href="//xw2/images/pilots/cardBacks/pilot_card_back_scumandvillainy.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">pilot_card_back_scumandvillainy.png</a></td><td data-sort="1729465833">2024-10-20 23:10</td><td data-sort="6150824">   6007k</td></tr>
+<tr><td data-sort="pilot_card_back_separatistalliance.png"><a href="//xw2/images/pilots/cardBacks/pilot_card_back_separatistalliance.png"><img class="icon" src="/_autoindex/assets/icons/image.svg" alt="[IMG]">pilot_card_back_separatistalliance.png</a></td><td data-sort="1729465826">2024-10-20 23:10</td><td data-sort="6008015">   5868k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at infinitearenas.com Port 443</address></div><script>
+	new Tablesort(document.getElementById("table-content"));
+	var keywordInput = document.getElementById('filter-keyword');
+	document.addEventListener('keyup', filterTable);
+
+	function filterTable(e) {
+		if (e.target.id != 'filter-keyword') return;
+
+		var cols = document.querySelectorAll('tbody td:first-child');
+		var keyword = keywordInput.value.toLowerCase();
+		for (i = 0; i < cols.length; i++) {
+			var text = cols[i].textContent.toLowerCase();
+			if (text != 'parent directory') {
+				cols[i].parentNode.style.display = text.indexOf(keyword) === -1 ? 'none' : 'table-row';
+			}
+		}
+	}
+</script></body></html>
